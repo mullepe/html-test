@@ -57,6 +57,11 @@ h1 {
     color: black;
 }
 
+/** Stretching space between elements in top section **/
+.stretch {
+    flex-grow: 2;
+}
+
 /* Dropdown */
 /* Dropdown button */
 .top-list-dropdown .dropbtn {
@@ -121,7 +126,46 @@ h1 {
 	margin: 0 5px 0 0;
 }
 
-/** Stretching space between elements in top section **/
-.stretch {
-    flex-grow: 2;
+
+/* Hero banner */
+
+.hero {
+	border-top: 5px solid #f9f9f9;
 }
+
+.hero-banner {
+	width: 100%;
+	margin-top: -46px;
+}
+
+.hero-centered {
+	font-size: 8em;
+	font-weight: bold;
+	color: white;
+	position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-smaller {
+	font-size: 1.2em;
+	font-weight: bold;
+	color: white;
+	position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-yak {
+	width:300px;
+    height: auto;
+	position: absolute;
+    top: 57%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+
+
+
