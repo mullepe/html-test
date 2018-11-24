@@ -62,6 +62,7 @@ h1 {
 .top-list-dropdown .dropbtn {
   font-size: 0.7em; 
   color: #0645AD;
+  background-color: white;
   border: none;
   outline: none;
   padding: 14px 16px;
