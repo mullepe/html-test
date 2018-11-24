@@ -287,6 +287,39 @@ h1 {
 	padding: 8px 15px;
 }
 
+/** Banners **/
+
+.banners {
+	background-color: #5c2d91;
+	min-height: 240px;
+
+	text-align: center;
+}
+
+.banners-wrapper {
+	display: inline-block;
+	width: 720px;
+	height: 140px;
+	margin-top: 40px;
+	background-color: #5c2d91;
+}
+
+.banner-box {
+	float: left;
+	margin-left: 5px;
+	margin-right: 5px;
+	background-color: white;
+}
+
+.banner-box img {
+	width: 230px;
+}
+
+.banner-box p {
+	font-size: 0.8em;
+	color: #5c2d91;
+	line-height: 40px;
+}
 
 
 
