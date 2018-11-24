@@ -292,7 +292,6 @@ h1 {
 .banners {
 	background-color: #5c2d91;
 	min-height: 240px;
-
 	text-align: center;
 }
 
@@ -321,10 +320,44 @@ h1 {
 	line-height: 40px;
 }
 
+/** Contacts **/
 
+.contact {
+	background-color: white;
+	min-height: 180px;
+	text-align: center;
+}
 
+.contact-wrapper {
+	display: inline-block;
+	width: 720px;
+	height: 120px;
+	margin-top: 40px;
+	background-color: white;
+}
 
+.contact-box {
+	float: left;
+	background-color: white;
+	width: 550px;
+}
 
+.contact-wrapper h2 {
+	color: #5c2d91;
+	margin-bottom: 10px;
+	text-align: left;
+}
+
+.contact-wrapper p {
+	color: black;
+	font-size: 0.8em;
+	text-align: left;
+}
+
+.contact-wrapper img {
+	width: 60px;
+	margin: 10px;
+}
 
 
 
