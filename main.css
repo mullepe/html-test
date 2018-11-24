@@ -9,13 +9,18 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 body {
-    font-family: "OpenSans", sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
-
 
 a {
     color: #0645AD;
     text-decoration: none;
+}
+
+h1 {
+	font-weight: normal;
+    font-size: 1.5em;
+    margin-right: 15px;
 }
 
 /* TOP */
@@ -26,7 +31,46 @@ a {
 	max-width: 1000px;
 }
 
-.top-list li {
-	display: inline;
+.top-list {
+	display: flex;
+	align-items: center;
+    justify-content: flex-start;
 	list-style-type: none;
+	margin-bottom: 15px;
+}
+
+.top-logo { 
+    max-width: 80px;
+    margin: 15px 0 -10px 0;
+}
+
+.top-icon {
+	margin-right: 15px;
+}
+
+.top a {
+	font-weight: normal;
+    font-size: 0.7em;
+    margin-right: 15px;
+}
+
+.top-nav a {
+	font-weight: normal;
+    font-size: 0.8em;
+    margin-right: 40px;
+    color: black;
+}
+
+/* Search box */
+.top-list input[type=text] {
+    border: solid;
+    border-color: #d3d3d3;
+    border-width: thin;
+    font-size: 0.8em;
+    min-width: 240px;
+}
+
+/** Stretching space between elements in top section **/
+.stretch {
+    flex-grow: 2;
 }
