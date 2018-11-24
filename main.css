@@ -4,3 +4,29 @@
     outline: none;
     box-sizing: border-box;
 }
+
+/* Can't licence SegoePro and Segoe UI */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    font-family: "OpenSans", sans-serif;
+}
+
+
+a {
+    color: #0645AD;
+    text-decoration: none;
+}
+
+/* TOP */
+
+.top {
+	display: block;
+    margin: 0 auto;
+	max-width: 1000px;
+}
+
+.top-list li {
+	display: inline;
+	list-style-type: none;
+}
