@@ -131,10 +131,6 @@ h1 {
 
 /* Hero banner */
 
-.hero {
-	/** border-top: 5px solid #f5f5f5; **/
-}
-
 .hero-banner {
 	width: 100%;
 	margin-top: -46px;
@@ -419,11 +415,10 @@ h1 {
 }
 
 .footer-list {
-	text-align: right;
 	width: 720px;
 }
 
-.footer-list li {
+.footer-list li{
 	display: inline;
 	list-style-type: none;
 	font-size: 0.7em;
