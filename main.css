@@ -55,6 +55,7 @@ h1 {
     font-size: 0.8em;
     margin-right: 40px;
     color: black;
+    z-index: 2;
 }
 
 /** Stretching space between elements in top section **/
@@ -130,7 +131,7 @@ h1 {
 /* Hero banner */
 
 .hero {
-	border-top: 5px solid #f5f5f5;
+	/** border-top: 5px solid #f5f5f5; **/
 }
 
 .hero-banner {
@@ -172,13 +173,13 @@ h1 {
 
 .content {
 	background-color: #f5f5f5;
+	max-height: 1110px;
 }
 
 .content-wrapper {
 	width: auto;
     height: auto;
 	position: relative;
-    top: 50%;
     left: 50%;
     transform: translate(-50%, -10%);
 }
@@ -225,7 +226,7 @@ h1 {
 }
 
 
-.content-button {
+.content-button a {
 	display: inline-block;
 	text-align: center;
 	background-color: #5c2d91;
@@ -234,16 +235,57 @@ h1 {
 	min-height: 40px;
 	line-height: 40px;
 	font-size: 0.8em;
-	margin: 10px 0 40px 0;
+	margin: 10px 0px 40px 0px;
 }
 
 /** Aboout yak **/
 
 .yak {
-	background-color: white;
+	margin-top: -100px;
+	margin-bottom: 30px;
+	text-align: center;
 }
 
+.yak-wrapper {
+	display: inline-block;
+	min-width: 720px;
 
+	}
+
+.yak-img {
+	float: left;
+}
+
+.yak-img img {
+	width: 200px;
+}
+
+.yak-text {
+	color: black;
+	text-align: left;
+	max-width: 450px;
+	margin-left: 35%;
+}
+
+.yak-text h2 {
+	color: #5c2d91;
+	margin-bottom: 10px;
+}
+
+.yak-text p {
+	font-size: 0.8em;
+}
+
+.yak-button {
+	margin-top: 25px;
+}
+
+.yak-button a {
+	background-color: #5c2d91;
+	color: white;
+	font-size: 0.8em;
+	padding: 8px 15px;
+}
 
 
 
