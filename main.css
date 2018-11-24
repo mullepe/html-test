@@ -180,7 +180,7 @@ h1 {
 	position: relative;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -20%);
+    transform: translate(-50%, -10%);
 }
 
 .content-row {
@@ -224,6 +224,24 @@ h1 {
 	margin-bottom: 15px;
 }
 
+
+.content-button {
+	display: inline-block;
+	text-align: center;
+	background-color: #5c2d91;
+	color: white;
+	min-width: 720px;
+	min-height: 40px;
+	line-height: 40px;
+	font-size: 0.8em;
+	margin: 10px 0 40px 0;
+}
+
+/** Aboout yak **/
+
+.yak {
+	background-color: white;
+}
 
 
 
